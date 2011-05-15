@@ -2,7 +2,7 @@ h1. NSQLFormatter
 
 h4. Beautify your SQL easily. NSQLFormatter is an open-source SQL Beautifier written with C# and .NET Framework 4.0. Project is based 100% on the work done in the NHibernate-project.
 
-h4. 
+<br/>
 
 h4. Usage
 
