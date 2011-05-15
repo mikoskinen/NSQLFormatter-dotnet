@@ -1,0 +1,21 @@
+h1. NSQLFormatter
+
+h4. Beautify your SQL easily. NSQLFormatter is an open-source SQL Beautifier written with C# and .NET Framework 4.0. Project is based 100% on the work done in the NHibernate-project.
+
+h4. Usage
+
+1. Add reference to NSQLFormatter.dll.
+
+2. var formattedSQL = NSQLFormatter.Formatter.Format(originalSQL);
+
+No external references required. 
+
+h4. Background
+
+NSQLFormatter was created when a project needed a way to easily beautify the inputted SQL. The excellent NHibernate-project (http://nhforge.org) contained the necessary code but adding the reference to NHibernate's dlls was deemed a too heavy-weight solution. So, the source code in question was copied from the NHibernate and all the requirements for external references (IESI Collections) were removed.
+
+h4. Licenses
+
+This software is distributed under the terms of the FSF Lesser GNU Public License (see lgpl.txt).
+
+This product includes source code from the NHibernate-project, written by Fabio Maulo, Mike Doerfler, Sergej Košcejev, Ayende Rahien and others. Visit the NHibernate SVN-repository for more information: http://nhibernate.svn.sourceforge.net/viewvc/nhibernate/trunk/nhibernate/src/NHibernate/
