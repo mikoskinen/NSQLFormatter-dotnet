@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NSQLFormatter</id>
+    <title>NSQLFormatter</title>
+    <summary>An open-source SQL Beautifier written with C# and .NET Framework 4.0</summary>
+    <version>1.0</version>
+    <authors>Mikael Koskinen</authors>
+    <owners>Mikael Koskinen</owners>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl-3.0.txt</licenseUrl>
+    <projectUrl>https://github.com/mikoskinen/NSQLFormatter-dotnet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Beautify your SQL easily. NSQLFormatter is an open-source SQL Beautifier written with C# and .NET Framework 4.0. Project is based 100% on the work done in the NHibernate-project.</description>
+    <tags>SQL SQLFORMATTING</tags>
+  </metadata>
+  <files>
+    <file src="src\NSQLFormatter\bin\Release\*.dll" target="lib" />
+  </files>
+</package>
