@@ -12,6 +12,10 @@ h4. Usage
 
 No external references required. 
 
+h4. NuGet
+
+NSQLFormatter is available through the NuGet with the package name NSQLFormatter. Type "install-package NSQLFormatter" to install it.
+
 h4. Background
 
 NSQLFormatter was created when a project needed a way to easily beautify the inputted SQL. The excellent NHibernate-project (http://nhforge.org) contained the necessary code but adding the reference to NHibernate's dlls was deemed a too heavy-weight solution. So, the source code in question was copied from the NHibernate and all the requirements for external references (IESI Collections) were removed.
