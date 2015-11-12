@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSQLFormatter", "NSQLFormatter\NSQLFormatter.csproj", "{03AADBE3-6BE4-46AF-B96B-3BBC666FF766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSQLFormatter.Portable", "NSQLFormatter.Portable\NSQLFormatter.Portable.csproj", "{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{03AADBE3-6BE4-46AF-B96B-3BBC666FF766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03AADBE3-6BE4-46AF-B96B-3BBC666FF766}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03AADBE3-6BE4-46AF-B96B-3BBC666FF766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
