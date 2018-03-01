@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSQLFormatter", "NSQLFormatter\NSQLFormatter.csproj", "{03AADBE3-6BE4-46AF-B96B-3BBC666FF766}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSQLFormatter.Portable", "NSQLFormatter.Portable\NSQLFormatter.Portable.csproj", "{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSQLFormatter.Standard", "NSQLFormatter.Standard\NSQLFormatter.Standard.csproj", "{8230895A-41CC-4ADF-9744-6AEB0DA9B824}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FE2AD2B-7C1F-455F-81FA-ABBD95BDC8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8230895A-41CC-4ADF-9744-6AEB0DA9B824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8230895A-41CC-4ADF-9744-6AEB0DA9B824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8230895A-41CC-4ADF-9744-6AEB0DA9B824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8230895A-41CC-4ADF-9744-6AEB0DA9B824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96C2FF91-D17C-4C9F-BC84-A6A3331A090F}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,5 @@
 {
-  "locked": false,
-  "version": 1,
+  "version": 3,
   "targets": {
     ".NETPortable,Version=v4.5,Profile=Profile78": {}
   },
@@ -8,5 +7,38 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETPortable,Version=v4.5,Profile=Profile78": []
+  },
+  "packageFolders": {
+    "C:\\Users\\mikae\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "C:\\dev\\projects\\NSQLFormatter-dotnet\\src\\NSQLFormatter.Portable\\NSQLFormatter.Portable.csproj",
+      "projectName": "NSQLFormatter.Portable",
+      "projectPath": "C:\\dev\\projects\\NSQLFormatter-dotnet\\src\\NSQLFormatter.Portable\\NSQLFormatter.Portable.csproj",
+      "projectJsonPath": "C:\\dev\\projects\\NSQLFormatter-dotnet\\src\\NSQLFormatter.Portable\\project.json",
+      "packagesPath": "C:\\Users\\mikae\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\projects\\NSQLFormatter-dotnet\\src\\NSQLFormatter.Portable\\obj\\",
+      "projectStyle": "ProjectJson",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mikae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/orchardcore-preview/api/v3/index.json": {}
+      }
+    },
+    "frameworks": {
+      "portable45-net45+win8+wp8": {}
+    }
   }
 }

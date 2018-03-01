@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>NSQLFormatter.Standard</AssemblyName>
+    <RootNamespace>NSQLFormatter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\NSQLFormatter\Formatter.cs" Link="Formatter.cs" />
+  </ItemGroup>
+
+</Project>
